@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.button{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: beige;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolist{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.todolist h1{
+    font-size: 48px;
+    color: rgb(0, 162, 255);
+    text-align: left;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputel{
+    width: 200px;
+    height: 30px;
+    background-color: beige;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    color: rgb(0, 162, 255);
+    padding-left: 10px;
+}
+
+.buttonel{
+    width: 200px;
+    height: 30px;
+    background-color: beige;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 5px;
+    font-size: 17px;
+    color: rgb(0, 162, 255);
+    transition: 0.5s;
+}
+
+.buttonel:hover{
+    background-color: rgb(0, 162, 255);
+    color: beige;
+}
+
+ .list p{
+    font-size: 20px;
+    color: rgb(0, 162, 255);
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.done{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(6, 189, 6);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid beige;
+}
+
+.done:hover{
+    background-color: beige;
+    border: 2px solid rgb(6, 189, 6);
+    color: rgb(6, 189, 6);
+}
+
+.remove{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(212, 0, 18);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid beige;
+}
+
+.remove:hover{
+    background-color: beige;
+    border: 2px solid rgb(212, 0, 18);
+    color: rgb(212, 0, 18);
+}
